@@ -42,6 +42,6 @@ RSpec.configure do |config|
   config.order = "random"
   
   config.deprecation_stream = 'log/deprecations.log'
-#  config.mock_with :mocha
+  config.mock_with :mocha
 
 end
