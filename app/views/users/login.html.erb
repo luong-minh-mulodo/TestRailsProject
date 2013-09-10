@@ -1,0 +1,23 @@
+
+<h1>Login</h1>
+	<%= form_for :users do |f|%> <br />
+		<p>
+			<%= f.label :name  %> :
+			<%= f.text_field :name %>
+		</p>
+		<p>
+			<%= f.label :password %> :
+			<%= f.password_field :password %>
+		</p>
+		
+		<p>
+			<%= f.submit 'Login' %>
+		</p>
+	<% end %>
+	
+	    <% if @error != nil%>
+        <% @error.each do |key,val| %>
+            <p><%= key %> : <%= val %></p>
+        <% end %>
+    <% end %>
+<br />

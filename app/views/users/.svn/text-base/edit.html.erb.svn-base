@@ -1,0 +1,23 @@
+<h1>Edit User</h1><br />
+	<%= form_for(@users)  do |f|%>
+		<p>
+			<%= f.label :name  %> :
+			<%= f.text_field :name %>
+		</p>
+		
+		<p>
+			<%= f.label :email %> :
+			<%= f.text_field :email %>
+		</p>
+		
+		<p>
+			<%= f.submit 'Edit User' %>
+		</p>
+	<% end %>
+    <% if @error != nil%>
+        <% @error.each do |key,val| %>
+            <p><%= key %> : <%= val %></p>
+        <% end %>
+    <% end %>
+
+<br />

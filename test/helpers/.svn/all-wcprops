@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mulodo/svn/ror_team_dor/!svn/ver/82/Minh%20Luong/Rails/Demo%20MVC/test/helpers
+END
+books_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/mulodo/svn/ror_team_dor/!svn/ver/79/Minh%20Luong/Rails/Demo%20MVC/test/helpers/books_helper_test.rb
+END
+.keep
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mulodo/svn/ror_team_dor/!svn/ver/79/Minh%20Luong/Rails/Demo%20MVC/test/helpers/.keep
+END
+api_test_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/mulodo/svn/ror_team_dor/!svn/ver/79/Minh%20Luong/Rails/Demo%20MVC/test/helpers/api_test_helper_test.rb
+END
+send_mails_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/mulodo/svn/ror_team_dor/!svn/ver/79/Minh%20Luong/Rails/Demo%20MVC/test/helpers/send_mails_helper_test.rb
+END
+download_and_uploads_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/mulodo/svn/ror_team_dor/!svn/ver/82/Minh%20Luong/Rails/Demo%20MVC/test/helpers/download_and_uploads_helper_test.rb
+END

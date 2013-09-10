@@ -1,0 +1,19 @@
+<h1>Show User</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+  </tr>
+
+  <tr>
+    <td><%= @users.name %></td>
+    <td><%= @users.email %></td>
+  </tr>
+
+
+</table>
+
+<br />
+
+<%= link_to 'New User', new_user_path %> </br>
+<%= link_to 'List User', users_path %>

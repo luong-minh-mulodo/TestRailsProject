@@ -1,0 +1,89 @@
+10
+
+dir
+106
+https://r.svn.ne.jp/mulodo/svn/ror_team_dor/Minh%20Luong/Rails/Demo%20MVC/spec
+https://r.svn.ne.jp/mulodo/svn/ror_team_dor
+
+
+
+2013-09-05T10:41:21.510111Z
+106
+luong.minh
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a5bba4a0-00fb-45c7-accf-12c5f889e8ff
+
+Mock
+dir
+
+controllers
+dir
+
+factories
+dir
+
+features
+dir
+
+models
+dir
+
+requests
+dir
+
+routing
+dir
+
+spec_helper.rb
+file
+140
+
+
+
+2013-09-06T10:00:17.000000Z
+111eb2d810ef7cb24b45d0969bfdec05
+2013-09-06T10:10:49.047533Z
+140
+luong.minh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1728
+
+support
+dir
+
+views
+dir
+

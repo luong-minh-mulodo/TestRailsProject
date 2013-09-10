@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/mulodo/svn/ror_team_dor/!svn/ver/79/Minh%20Luong/Rails/Demo%20MVC/config/environments
+END
+development.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/mulodo/svn/ror_team_dor/!svn/ver/79/Minh%20Luong/Rails/Demo%20MVC/config/environments/development.rb
+END
+production.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/mulodo/svn/ror_team_dor/!svn/ver/79/Minh%20Luong/Rails/Demo%20MVC/config/environments/production.rb
+END
+test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/mulodo/svn/ror_team_dor/!svn/ver/79/Minh%20Luong/Rails/Demo%20MVC/config/environments/test.rb
+END

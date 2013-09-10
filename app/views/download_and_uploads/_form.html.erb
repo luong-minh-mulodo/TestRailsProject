@@ -1,0 +1,17 @@
+<%= form_for(@download_and_upload) do |f| %>
+  <% if @download_and_upload.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@download_and_upload.errors.count, "error") %> prohibited this download_and_upload from being saved:</h2>
+
+      <ul>
+      <% @download_and_upload.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

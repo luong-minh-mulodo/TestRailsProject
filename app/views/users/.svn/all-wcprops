@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/mulodo/svn/ror_team_dor/!svn/ver/100/Minh%20Luong/Rails/Demo%20MVC/app/views/users
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/mulodo/svn/ror_team_dor/!svn/ver/82/Minh%20Luong/Rails/Demo%20MVC/app/views/users/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/mulodo/svn/ror_team_dor/!svn/ver/79/Minh%20Luong/Rails/Demo%20MVC/app/views/users/show.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/mulodo/svn/ror_team_dor/!svn/ver/82/Minh%20Luong/Rails/Demo%20MVC/app/views/users/edit.html.erb
+END
+login.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/mulodo/svn/ror_team_dor/!svn/ver/100/Minh%20Luong/Rails/Demo%20MVC/app/views/users/login.html.erb
+END
+index.json.jbuilder
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/mulodo/svn/ror_team_dor/!svn/ver/79/Minh%20Luong/Rails/Demo%20MVC/app/views/users/index.json.jbuilder
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/mulodo/svn/ror_team_dor/!svn/ver/83/Minh%20Luong/Rails/Demo%20MVC/app/views/users/index.html.erb
+END

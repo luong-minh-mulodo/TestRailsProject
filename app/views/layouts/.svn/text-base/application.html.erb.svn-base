@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <title>Rails Demo Project</title> -->
+  <!-- <title>Ruby on Rails Tutorial Sample App | <%= @title %></title> -->
+  <title><%= title %></title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">Demo Rail MM</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="http://localhost:3000/users" accesskey="1" title="Home">Homepage</a></li>
+				<li><a href="http://localhost:3000/send_mails" accesskey="2" title="">Send Mail</a></li>
+				<li><a href="http://localhost:3000/api_test/show_json" accesskey="3" title="">API</a></li>
+				<li><a href="http://localhost:3000/download_and_uploads" accesskey="4" title="">Downdload and Upload</a></li>
+				<li><a href="#" accesskey="5" title="">Helper</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="page">
+		
+		<%= yield %>
+	</div>
+	<div id="footer">
+		<p>Copyright (c) 2013 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org">FCT</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
+	</div>
+</div>
+
+
+
+
+
+</body>
+</html>

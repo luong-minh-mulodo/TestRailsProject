@@ -1,0 +1,9 @@
+<h1>Listing download_and_uploads</h1>
+<br />
+<p> <%= link_to 'Download', 'download_and_uploads/download' %></p>
+
+<%= form_tag({:action => 'uploadFile'}, :multipart => true) do %>
+<p><label for="upload_file">Select File</label>
+<%= file_field 'upload', 'datafile' %></p>
+<%= submit_tag "Upload" %>
+<% end %>

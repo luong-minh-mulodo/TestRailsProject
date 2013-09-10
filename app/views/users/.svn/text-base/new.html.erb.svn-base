@@ -1,0 +1,34 @@
+<h1>New User</h1><br />
+	<%= form_for :users do |f|%>
+		<p>
+			<%= f.label :name  %> :
+			<%= f.text_field :name %>
+		</p>
+		
+		<p>
+			<%= f.label :email %> :
+			<%= f.text_field :email %>
+		</p>
+	
+		<p>
+			<%= f.label :password %> :
+			<%= f.password_field :password %>
+		</p>
+		
+		<p>
+			<%= f.label :password_confirmation %> :
+			<%= f.password_field :password_confirmation %>
+		</p>
+
+		
+		<p>
+			<%= f.submit 'Create User' %>
+		</p>
+	<% end %>
+	
+	    <% if @error != nil%>
+        <% @error.each do |key,val| %>
+            <p><%= key %> : <%= val %></p>
+        <% end %>
+    <% end %>
+<br />

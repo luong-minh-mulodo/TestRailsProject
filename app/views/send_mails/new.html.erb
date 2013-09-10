@@ -1,0 +1,29 @@
+<h1>Send Mail</h1>
+	<%= form_for :send_mails   do |f|%>
+		<p>
+			<%= f.label :subject  %> :
+			<%= f.text_field :subject %>
+		</p>
+		
+		<p>
+			<%= f.label :to %> :
+			<%= f.text_field :to  %>
+		</p>
+	
+		<p>
+			<%= f.label :body %> :
+			<%= f.text_area  :body  %>
+		</p>
+
+		<p>
+			<%= f.submit 'Send Mail' %>
+		</p>
+	<% end %>
+	
+	    <% if @error != nil%>
+        <% @error.each do |key,val| %>
+            <p><%= key %> : <%= val %></p>
+        <% end %>
+    <% end %>
+<br />
+<%= flash[:bug] %>
